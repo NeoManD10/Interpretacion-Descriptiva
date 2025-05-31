@@ -32,8 +32,6 @@ pip install -r requirements.txt
 
 ## 4. Ejecutar los programas
 
-Asegúrate de estar en la carpeta donde están los archivos y ejecuta los siguientes comandos:
-
 ### a) Estadística descriptiva
 ```bash
 python estd_descriptiva.py
