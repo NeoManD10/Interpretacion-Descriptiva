@@ -1,0 +1,47 @@
+
+Tutorial para ejecutar los programas de análisis
+
+1. Pre-requisitos
+-----------------
+- Tener Python 3 instalado.
+- Archivos necesarios en la misma carpeta:
+  - datos_respuesta.csv
+  - estd_descriptiva.py
+  - 3_1.py
+  - 3_2.py
+  - requirements.txt
+
+2. Crear y activar un entorno virtual (recomendado)
+---------------------------------------------------
+Linux/Mac:
+    python3 -m venv env
+    source env/bin/activate
+
+Windows:
+    python -m venv env
+    env\Scripts\activate
+
+3. Instalar dependencias
+------------------------
+    pip install -r requirements.txt
+
+4. Ejecutar los programas
+-------------------------
+a) Estadística descriptiva:
+    python estd_descriptiva.py
+
+b) Intervalo de confianza para la media y su histograma:
+    python 3_1.py
+
+c) Intervalo de confianza para la proporción y su gráfico:
+    python 3_2.py
+
+5. Visualización de resultados
+------------------------------
+- Los resultados se muestran en la terminal (pantalla).
+- Los gráficos generados se guardan en la carpeta como archivos PNG.
+
+6. Salir del entorno virtual
+----------------------------
+    deactivate
+
