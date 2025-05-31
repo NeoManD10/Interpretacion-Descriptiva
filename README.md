@@ -4,14 +4,6 @@
 ## 1. Pre-requisitos
 
 - Tener **Python 3** instalado.
-- Asegurarse de tener los siguientes archivos en la misma carpeta:
-  - `datos_respuesta.csv`
-  - `estd_descriptiva.py`
-  - `3_1.py`
-  - `3_2.py`
-  - `requirements.txt`
-
----
 
 ## 2. Crear y activar un entorno virtual (recomendado)
 
@@ -24,7 +16,7 @@ source env/bin/activate
 **En Windows:**
 ```bash
 python -m venv env
-env\Scriptsctivate
+env\Scripts\activate
 ```
 
 ---
@@ -80,5 +72,5 @@ deactivate
 
 ### Notas
 
-- Si tienes algún problema, asegúrate de tener Python 3.x y haber instalado todas las dependencias del `requirements.txt`.
-- Recuerda **activar el entorno virtual** antes de ejecutar los scripts.
+- Si hay algún problema, asegúrarse de tener Python 3.x y haber instalado todas las dependencias del `requirements.txt`.
+- Recordar **activar el entorno virtual** antes de ejecutar los scripts.
