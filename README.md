@@ -5,7 +5,17 @@
 
 - Tener **Python 3** instalado.
 
-## 2. Crear y activar un entorno virtual (recomendado)
+## 2. Hacer un git clone al repositorio
+Si tienes llave ssh en tu pc
+```bash
+git clone git@github.com:NeoManD10/Interpretacion-Descriptiva.git
+```
+Si no la tienes
+```bash
+git clone https://github.com/NeoManD10/Interpretacion-Descriptiva.git
+```
+
+## 3. Crear y activar un entorno virtual (recomendado)
 
 **En Linux/Mac:**
 ```bash
@@ -21,7 +31,7 @@ env\Scripts\activate
 
 ---
 
-## 3. Instalar dependencias
+## 4. Instalar dependencias
 
 Con el entorno virtual activo, ejecuta:
 ```bash
@@ -30,7 +40,7 @@ pip install -r requirements.txt
 
 ---
 
-## 4. Ejecutar los programas
+## 5. Ejecutar los programas
 
 ### a) Estadística descriptiva
 ```bash
@@ -52,14 +62,14 @@ Imprime la proporción de tiempos mayores a 250 ms y su intervalo de confianza, 
 
 ---
 
-## 5. Visualización de resultados
+## 6. Visualización de resultados
 
 - Los resultados se muestran en la **terminal**.
 - Los gráficos generados se guardan en la misma carpeta y se pueden abrir como archivos PNG.
 
 ---
 
-## 6. Salir del entorno virtual
+## 7. Salir del entorno virtual
 
 Cuando termines, puedes salir del entorno virtual ejecutando:
 ```bash
